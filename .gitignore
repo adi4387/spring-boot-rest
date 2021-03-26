@@ -1,23 +1,102 @@
-# Compiled class file
-*.class
-
-# Log file
+# Log files
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+.project
+.settings
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### Intellij ###
+.idea
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+**/out/
+*.iws
+
+### VSCode ###
+.vscode
+
+### Splunk ###
+# Splunk local meta file
+local.meta
+
+# Splunk local folder
+local
+
+### Gradle ###
+.gradle
+
+**/build/
+**/.gradle/
+
+### Secrets for enternal services ###
+**/cep-externalservices-secrets.env
+
+### Rendered k8s templates ###
+**/k8s/*/service.yaml
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# KotlinTest
+.kotlintest
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+**/.vertx/
+
+# Secrets files which should never be commited unencrypted to the repository
+*secrets.yaml
+*acl.yaml
+*gpg.yaml
+*truststore.jks
+*keystore.jks
+!**/src/test/resources/*.jks
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore local acl file
+acl-groups-and-clients.yaml
+
+# Ignore local gradle properties
+gradle.properties
+
+# Ignore local app server agent
+AppServerAgent-4.5.5.24422.zip
+
+# Ignore .kms left-overs
+**/.kms
+
+# Ignore VPN config files
+configure-nat-*.sh
+vpn-*.sh
+
+# Ignore rocksdb files
+**/rocksdb/
+
+# Local configuration file
+application.conf
+
+#Javascript modules
+**/node_modules/
