@@ -1,10 +1,10 @@
-package com.adruy.kafka;
+package com.adruy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KafkaTesterApplicationTests {
+class SpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {

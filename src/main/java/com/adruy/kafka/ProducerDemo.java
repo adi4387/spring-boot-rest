@@ -1,4 +1,4 @@
-package com.adruy.kafka.demo;
+package com.adruy.kafka;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;

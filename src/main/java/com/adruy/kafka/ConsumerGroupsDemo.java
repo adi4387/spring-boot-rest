@@ -1,4 +1,4 @@
-package com.adruy.kafka.demo;
+package com.adruy.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -17,11 +17,11 @@ import static org.apache.kafka.clients.consumer.ConsumerConfig.GROUP_ID_CONFIG;
 import static org.apache.kafka.clients.consumer.ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG;
 import static org.apache.kafka.clients.consumer.ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG;
 
-public class ConsumerDemo {
+public class ConsumerGroupsDemo {
 
-    private static final Logger LOG = LoggerFactory.getLogger(ConsumerDemo.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ConsumerGroupsDemo.class);
 
-    public void consume() {
+    public void consumer() {
 
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "colleague_event";
